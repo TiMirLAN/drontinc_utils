@@ -1,0 +1,6 @@
+pytils
+ipython
+fabric
+markdown
+django-compressor
+django-annoying
