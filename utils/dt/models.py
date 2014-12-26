@@ -15,14 +15,12 @@ class CreatedAndChangedDateTimeMixin(models.Model):
     created_at = models.DateTimeField(
         db_index=True,
         auto_now_add=True,
-        default=now(),
         editable=False,
         verbose_name="Дата создания"
     )
     modified_at = models.DateTimeField(
         db_index=True,
         auto_now=True,
-        default=now(),
         editable=True,
         verbose_name=u"Дата последнего изменения"
     )
