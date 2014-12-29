@@ -32,4 +32,5 @@ class CreatedAndChangedDateTimeMixin(models.Model):
         return self.modified_at
 
     class Meta:
+        ordering = ['-created_at']
         abstract = True
